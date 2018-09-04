@@ -38,7 +38,7 @@ function nlklbs_piklist_admin_pages($pages) {
 		'page_icon' => plugins_url('piklist/parts/img/piklist-page-icon-32.png'),
 		// 'single_line' => true,
 		// 'default_tab' => '',
-		'save_text' => 'Save Settings',
+		'save_text' => 'Save Settings 2',
 	);
 	return $pages;
 }
