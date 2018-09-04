@@ -1,2 +1,2 @@
-# Nalk Labs
-Nalk Labs
+# Nalk-Labs
+Nalk-Labs
