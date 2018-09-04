@@ -4,7 +4,7 @@
  * Plugin Name: Nalk-Labs
  * Plugin URI: http://example.com/wp-plugins/nalk-labs/
  * Description: This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version: 1.0.5
+ * Version: 1.0.6
  * Author: PixelNest Design
  * Author URI: http://www.pixelnest.design/
  * Plugin Type: Piklist
