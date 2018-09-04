@@ -1,0 +1,42 @@
+
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------------- */
+.settings_page_nalk-labs-settings .subsubsub { margin-bottom: 12px; }
+
+.settings_page_nalk-labs-settings.piklist-workflow-tab-shortcodes .nav-tab-sub,
+.settings_page_nalk-labs-settings.piklist-workflow-tab-plugins .nav-tab-sub,
+.settings_page_nalk-labs-settings.piklist-workflow-tab-posts .nav-tab-sub,
+.settings_page_nalk-labs-settings.piklist-workflow-tab-users .nav-tab-sub,
+.settings_page_nalk-labs-settings.piklist-workflow-tab-widgets .nav-tab-sub { display: none; }
+
+.settings_page_nalk-labs-settings .subsubsub .nav-tab-sub a { padding-left: 0; }
+
+.settings_page_nalk-labs-settings .form-table th { padding: 13px 10px 13px 0; }
+.settings_page_nalk-labs-settings .form-table td { padding: 13px 10px; }
+
+.settings_page_nalk-labs-settings .piklist-child-label { padding-right: 0.35em; }
+.settings_page_nalk-labs-settings .piklist-field-list-item { padding: 0; }
+
+/* label[for*="nlklbs-hide_label"].piklist-child-label { display: none; } */
+
+.settings_page_nalk-labs-settings input:checked ~ .piklist-list-item-label { font-weight: 600; }
+.settings_page_nalk-labs-settings .description { margin-top: 5px; }
+.settings_page_nalk-labs-settings .submit { margin-top: 40px; }
+
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------------- */
+.nlk-hidden { display: none !important; }
+.nlk-margins-clear { margin: 0 !important; }
+.nlk-paddings-clear { padding: 0 !important; }
+
+.nlk-finished { color: green; }
+.nlk-unfinished { color: #ff6600; }
+.nlk-focused { color: blue; }
+
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------------- */
+.nlkbs#commentstatusdiv .meta-options { margin: 0.75em 0 0.25em; }
+.nlkbs#slugdiv #post_name {
+	margin-top: 5px;
+	width: 100%;
+}

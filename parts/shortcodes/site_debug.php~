@@ -1,0 +1,46 @@
+<?php
+
+/*
+	Shortcode: nlk_site_debug
+----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+$array0 = array();
+$array1 = array();
+
+// $out0 = get_option(NLKLBS_OPTIONS);
+$out0 = get_option('widget_pages');
+$out1 = get_option('widget_text');
+unset($out1['_multiwidget']);
+$array = array_filter(array_map('array_filter', $out1));
+
+	$widgets_current_used_array = array();
+	$widgets_current_unused_array = array();
+	$widgets = $GLOBALS['wp_widget_factory']->widgets;
+	foreach($widgets as $key=>$item) {
+		$widget_options = get_option($item->option_name);
+		// $array0[] = get_option($item->option_name);
+		unset($widget_options['_multiwidget']);
+		// $widget_options = array_diff_key($widget_options, array("_multiwidget" => 1));
+		$widget_options = array_filter(array_map('array_filter', $widget_options));
+		if ( $widget_options ) {
+			$widgets_current_used_array[$key] = $item->name;
+		} else {
+			$widgets_current_unused_array[$key] = $item->name;
+		}
+	}
+
+	// $widgets_saved = get_option(NLKLBS_OPTIONS)[NLK_OPT_WGTS_FILTER_GRP][NLK_OPT_WGTS_FILTER_LIST_FULL] ?? '[]';
+	// $widgets_saved_array = json_decode($widgets_saved, true);
+	// $widgets_selected_ids = get_option(NLKLBS_OPTIONS)[NLK_OPT_WGTS_FILTER_GRP][NLK_OPT_WGTS_FILTER_LIST] ?? array();
+
+	// $widgets_selected_array = array_intersect_key($widgets_saved_array, array_flip($widgets_selected_ids));
+	// $widgets_array = array_merge($widgets_selected_array, $widgets_current_array);
+
+$tmp = get_option(NLKLBS_OPTIONS)[NLK_OPT_PGNS_CATEGORIZE_GRP] ?? array();
+$categorize_list = get_option(NLKLBS_OPTIONS)[NLK_OPT_PGNS_CATEGORIZE_GRP] ?? array();
+
+var_dump($widgets_current_used_array);
+echo '<p>---------------------------------------------------------------------------------------------------</p>';
+var_dump(get_plugins());
+echo '<p>---------------------------------------------------------------------------------------------------</p>';
+var_dump($tmp);
