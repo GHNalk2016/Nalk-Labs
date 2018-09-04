@@ -13,7 +13,6 @@
  * Text Domain: nalk-labs
  * Domain Path: /languages
  * GitHub Plugin URI: GHNalk2016/nalk-labs
- * GitHub Plugin URI: https://github.com/GHNalk2016/nalk-labs
 ----------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 require_once('settings.php');
