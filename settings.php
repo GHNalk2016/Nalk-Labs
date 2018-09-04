@@ -8,7 +8,7 @@ defined('NLK_SITE_ADMIN_OWNER') or define('NLK_SITE_ADMIN_OWNER', 0);
 
 /*
 ----------------------------------------------------------------------------------------------------------------------------------------------------- */
-defined('NLKLBS_Title') or define('NLKLBS_Title', 'Nalk-Labs');
+defined('NLKLBS_Title') or define('NLKLBS_Title', 'Nalk-Labs 2');
 defined('NLKLBS_Slug') or define('NLKLBS_Slug', strtolower(NLKLBS_Title));
 defined('NLKLBS_OPTIONS') or define('NLKLBS_OPTIONS', NLKLBS_Slug . '-settings');
 defined('NLKLBS_STYLES_VERSION') or define('NLKLBS_STYLES_VERSION', 1.0);
