@@ -93,6 +93,7 @@ function nlklbs_pgns_categorize_list() {
 			'label' => '_&nbsp;',
 			'list' => false,
 			'choices' => array('normal' => '<span class="nlk-choice nlk-normal">' . $item['Name'] . '</span> &#10596; &nbsp;') + $choices,
+			'value' => 'normal',
 			'attributes' => array(
 				'class' => 'nlk-radio-button',
 			),
