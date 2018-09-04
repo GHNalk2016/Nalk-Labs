@@ -4,7 +4,7 @@
  * Plugin Name: Nalk-Labs
  * Plugin URI: http://example.com/wp-plugins/nalk-labs/
  * Description: This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: PixelNest Design
  * Author URI: http://www.pixelnest.design/
  * Plugin Type: Piklist
@@ -12,6 +12,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain: nalk-labs
  * Domain Path: /languages
+ * GitHub Plugin URI: GHNalk2016/nalk-labs
 ----------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 require_once('settings.php');
